@@ -4,14 +4,15 @@ import Card from "./components/Card";
 import Counter from "./components/Counter";
 import Test from "./components/Test";
 import ProfileCardGenerator from "./components/ProfileCardGenerator";
+import UserDashboard from "./components/UserDashboard";
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <h1 className="text-[20px] justify-self-center mt-[20px] font-bold">
+      <h1 className="text-[20px] justify-self-center mt-[20px] font-bold">
         Welcome to React, Marshal 🚀
-      </h1> */}
+      </h1>
 
       {/* <div className="flex mt-[40px] justify-center">
         <Card
@@ -29,6 +30,7 @@ function App() {
       
     <Test/> */}
     <ProfileCardGenerator/>
+    <UserDashboard/>
     </>
   );
 }
