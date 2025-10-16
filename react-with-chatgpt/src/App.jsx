@@ -5,6 +5,8 @@ import Counter from "./components/Counter";
 import Test from "./components/Test";
 import ProfileCardGenerator from "./components/ProfileCardGenerator";
 import UserDashboard from "./components/UserDashboard";
+import TodoList from "./components/TodoList";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
     <Test/> */}
     <ProfileCardGenerator/>
     <UserDashboard/>
+    <TodoList/>
+    <Products/>
     </>
   );
 }
